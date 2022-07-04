@@ -62,7 +62,6 @@ app.get('/api/animals/:id', (req, res) => {
     } else {
         res.send(404);
     }
-    res.json(result);
 });
 
 app.listen(PORT, () => {
